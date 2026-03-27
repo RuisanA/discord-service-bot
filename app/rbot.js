@@ -1033,11 +1033,11 @@ if (interaction.customId == "punisannpuru") {
           .setImage("https://media.discordapp.net/attachments/1365763128851435633/1487075576698110053/Screenshot_2025-10-29-20-27-47-57_76b099e421634426558a1e2a87977434.jpg?ex=69c7d28e&is=69c6810e&hm=449ae368860607c9b2632ced80686b2e8f6ab5630c6f4e3f34e62c3a7d2fb748&=&format=webp&width=346&height=769")
           .setColor("RANDOM"),
           new MessageEmbed()
-          .setTitle("ぷにぷにmodmenuのサンプル画像3")
+          .setTitle("ぷにぷにmodmenuのサンプル画像4")
           .setImage("https://media.discordapp.net/attachments/1365763128851435633/1487075577763598439/Screenshot_2025-10-29-20-28-03-30_76b099e421634426558a1e2a87977434.jpg?ex=69c7d28e&is=69c6810e&hm=ecac6397539ae18016baac17eeef8ffa6f05936d316999991684d662744e45fb&=&format=webp&width=346&height=769")
           .setColor("RANDOM"),
           new MessageEmbed()
-          .setTitle("ぷにぷにmodmenuのサンプル画像3")
+          .setTitle("ぷにぷにmodmenuのサンプル画像5")
           .setImage("https://cdn.discordapp.com/attachments/1365763128851435633/1487075578740998306/Screenshot_2025-10-29-20-28-10-75_76b099e421634426558a1e2a87977434.jpg?ex=69c7d28e&is=69c6810e&hm=a26dc590b5bb7bfaca76049aa82b5579fd7385fcdd48eaa03cabcb6d3f6a5b93&")
           .setColor("RANDOM"),
         ],
