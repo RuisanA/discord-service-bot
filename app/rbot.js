@@ -481,15 +481,16 @@ client.on('interactionCreate', async interaction => {
 
       const channelId = '1406625500792754357';
 
-      const logMessage =`**発行ログ**
-      
-      ツムツムMODMENUが発行されました
-      
-      ユーザー: ${interaction.user.tag}`
+      const embed = new MessageEmbed()
+      .setTitle("ツムツムMODMENU")
+      .setDescription(`**発行ログ**\n\nツムツムMODMENUが発行されました\n\nユーザー: ${interaction.user.tag}`)
+      .setThumbnail(interaction.member.displayAvatarURL())
+      .setColor("RANDOM")
+      .setTimestamp();
 
   const channel = client.channels.cache.get(channelId);
   if (channel && channel.isText()) {
-    channel.send({ embeds: [embed.setDescription(logMessage).setThumbnail(interaction.member.displayAvatarURL()).setColor("RANDOM").setTimestamp()] });
+    channel.send({ embeds: [ embed ] });
   } else {
     console.log('指定したチャンネルが見つかりませんでした。');
   }
