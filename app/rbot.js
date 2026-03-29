@@ -209,7 +209,7 @@ client.on('interactionCreate', async interaction => {
     const embed = new MessageEmbed()
       .setDescription(`配布パネル`)
       .setAuthor('R SERVER 配布サービス', 'https://media.discordapp.net/attachments/1125145598199353374/1133005242825445396/download.png?width=512&height=512')
-      .setImage("https://aserora.net/distribution.png")
+      .setImage("https://media.discordapp.net/attachments/1365763128851435633/1487893119918936188/A4_.png?ex=69cacbf3&is=69c97a73&hm=a1407f50eca3ac2ca4d3925ae00a62ebafe20e22a9b7a5739030e6126641d1ff&=&format=webp&quality=lossless&width=617&height=873")
       .setColor("RANDOM")
       .setTimestamp();
 
