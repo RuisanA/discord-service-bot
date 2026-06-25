@@ -469,7 +469,7 @@ client.on('interactionCreate', async interaction => {
 
  if (interaction.customId == "tumutumu") {
     const row = new MessageActionRow().addComponents(
-    new MessageButton().setLabel("ダウンロード").setURL('https://www.mediafire.com/file/d3b15wuot49gner/%25E3%2583%2584%25E3%2583%25A0%25E3%2583%2584%25E3%2583%25A0ModMenu_12.6.1%2528%25E3%2581%258A%25E8%25A9%25A6%25E3%2581%2597%25E7%2589%2588%2529.apk/file').setStyle("LINK")
+    new MessageButton().setLabel("ダウンロード").setURL('https://www.mediafire.com/file/58j2thneh7w5mrc/%25E3%2583%2584%25E3%2583%25A0%25E3%2583%2584%25E3%2583%25A0ModMenu_12.7.0%2528%25E3%2581%258A%25E8%25A9%25A6%25E3%2581%2597%25E7%2589%2588%2529.apk/file').setStyle("LINK")
   );
       interaction.reply({
         embeds: [
